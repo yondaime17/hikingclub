@@ -1,0 +1,47 @@
+.join_club {
+  background: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  padding: 30px;
+  border-radius: 7px;
+  position: relative;
+  z-index: 5;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.join_club p {
+  font-size: 20px;
+}
+
+.join_club img {
+  width: 20%;
+}
+
+strong {
+  color: inherit;
+}
+
+.fill_form {
+  padding: 10px 15px;
+  border-radius: 15px;
+  background-color: #9246b0;
+  color: #b5f024;
+  font-weight: bold;
+  text-decoration: none;
+  width: 50%;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 500px) {
+  .join_club img {
+    width: 70%;
+  }
+
+  .fill_form {
+    width: 100%;
+  }
+}

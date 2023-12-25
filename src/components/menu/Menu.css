@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+nav span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  background-color: transparent;
+}
+
+nav .active_page {
+  background-color: #b5f024;
+}
+
+nav button h4 {
+  color: white;
+  font-size: 18px;
+}
+
+.page_btn {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+}
+
+.join {
+  background: #b5f024;
+  padding: 4px 15px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-top: -12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join h4 {
+  color: black;
+}

@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "unicode3d";
+  src: url("./media/fonts/3d_unicode.ttf") format("truetype");
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: #9246b0;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  padding: 35px;
+  padding-bottom: 70px;
+}
+
+.art {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: -2px;
+  left: 0;
+}
+
+.art img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  text-align: left;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.slogan {
+  color: #b5f024;
+  font-size: 42px;
+  font-family: Georgia, "Times New Roman", Times, cursive;
+}
+
+.copyright {
+  position: fixed;
+  font-size: 12px;
+  text-align: center;
+  color: #9246b0;
+  bottom: 5px;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+}

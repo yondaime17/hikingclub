@@ -1,0 +1,54 @@
+.team {
+  background: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  padding: 30px;
+  border-radius: 7px;
+  position: relative;
+  z-index: 5;
+  min-width: 300px;
+}
+
+.team p {
+  font-size: 20px;
+}
+
+.members {
+  margin-top: 25px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.member {
+  width: 180px;
+  margin-top: 15px;
+}
+
+.member h5 {
+  font-size: 20px;
+}
+
+.member img {
+  width: 180px;
+  height: 180px; /* Allow the height to adjust based on the image aspect ratio */
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+  .members {
+    justify-content: center;
+    gap: 100px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .members {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}

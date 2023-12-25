@@ -1,0 +1,62 @@
+.contact {
+  background: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  padding: 30px;
+  border-radius: 7px;
+  position: relative;
+  z-index: 5;
+  min-width: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+.contact .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 35px;
+  width: 50%;
+}
+
+.contact h6 {
+  font-size: 30px;
+  color: #9246b0;
+  text-align: center;
+}
+
+.contact img {
+  width: 41%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.pages a:nth-child(2) {
+  margin-left: 30px;
+}
+
+.cantact a {
+  margin-top: -10px !important;
+}
+
+@media only screen and (max-width: 790px) {
+  .contact {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .contact .text {
+    width: 100%;
+  }
+
+  .contact img {
+    width: 100%;
+    height: auto;
+  }
+}
